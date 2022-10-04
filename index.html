@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="css/index.css">
+<script src="js/cover.js"></script>
+<div class="cover-container">
+    <div id="cover">
+        <span class="cover-content">
+        M7kra
+        </span>
+    </div>
+</div>
+<div class="white-bg">
+    <div class="spacer-100"></div>
+    <div class="container">
+        <div class="row center-children">
+            <div class="col-md-8">
+                <h2>M7kra</h2>
+                <p>Hi there! I'm a programmer who learned through online
+                courses, YouTube videos, etc. On top of that, I only started
+                learning two years ago, so you might expect some bad practices.
+                Therefore, I try to make up for it with a lot of effort, forcing
+                myself to write many comments and make structured projects.</p>
+                <p>All comments, issues and remarks are welcome. I'm eager to learn!</p>
+                    <div class="spacer-100"></div>
+                    <h2>Projects</h2>
+                    <p>These are the (very few) projects that look good:</p>
+                    <div class="row">
+                        {% for project in site.data.projects %}
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-10" style="height: 270px">
+                                <div class="project">
+                                    <a href="{{ project.url }}" class="project-link">
+                                    <div class="header" style="--bg-image: url({{ project.bg-image }})">
+                                        <h3>{{ project.name }}</h3>
+                                        <img src="{{ project.icon }}" class="project-icon">
+                                    </div>
+                                    <div class="project-description">
+                                        <p>{{ project.description }}</p>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="spacer-100"></div>
+            </div>
+        </div>
+    </div>
+</div>

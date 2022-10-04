@@ -1,0 +1,17 @@
+- name: Musicly
+  description: Musicly is a simple and elegant open-source music player.
+  url: https://m7kra.github.io/Musicly/
+  bg-image: ../assets/library.png
+  icon: assets/logo.png
+
+- name: Sudoku
+  description: An experience with constraints and backtracking
+  url: https://github.com/m7kra/Sudoku
+  bg-image: ../assets/sudoku-bg.png
+  icon: assets/sudoku.png
+
+- name: Escape!
+  description: A rudimentary game in which a blue cube must escape a red one
+  url: https://github.com/m7kra/escape-game/releases/
+  bg-image: ../assets/tutorial.png
+  icon: assets/escape.png
