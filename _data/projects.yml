@@ -10,6 +10,12 @@
   bg-image: ../assets/sudoku-bg.png
   icon: assets/sudoku.png
 
+- name: Periodic
+  description: A simple website to train my periodic table of elements knowledge
+  url: https://m7kra.github.io/periodic
+  bg-image: ../assets/periodic-background.png
+  icon: assets/periodic.png
+
 - name: Escape!
   description: A rudimentary game in which a blue cube must escape a red one
   url: https://github.com/m7kra/escape-game/releases/
