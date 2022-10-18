@@ -11,7 +11,7 @@
   icon: assets/sudoku.png
 
 - name: Periodic
-  description: A simple website to train my periodic table of elements knowledge
+  description: A simple website made to exercise my periodic table knowledge
   url: https://m7kra.github.io/periodic
   bg-image: ../assets/periodic-background.png
   icon: assets/periodic.png
