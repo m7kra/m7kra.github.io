@@ -3,23 +3,21 @@ permalink: /404.html
 layout: default
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<script>
+// Redirec to to TypeX and Musicly and periodic if there were capitalization
+// errors
+let url = window.location.href;
+// Remove last / if there is any
+url = url.endsWith('/') ? url.slice(0, -1) : url;
+const termination = url.split('/').pop().toLowerCase();
+if (termination == 'typex') {
+  window.location.replace('https://m7kra.github.io/TypeX');
+} else if (termination == 'musicly') {
+  window.location.replace('https://m7kra.github.io/Musicly');
+} else if (termination == 'periodic') {
+  window.location.replace('https://m7kra.github.io/periodic');
+} else {
+  // Redirect to home page
+  window.location.replace('https://m7kra.github.io');
+}
+</script>
