@@ -4,6 +4,12 @@
   bg-image: ../assets/library.png
   icon: assets/logo.png
 
+- name: TypeX
+  description: Improve your typing speed
+  url: https://m7kra.github.io/TypeX/
+  bg-image: ../assets/typex.png
+  icon: assets/typex-logo.png
+
 - name: Sudoku
   description: An experience with constraints and backtracking
   url: https://github.com/m7kra/Sudoku
